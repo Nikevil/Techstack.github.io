@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Techstack</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="icon" href="./images/icon.png">
     </head>
-    <body oncontextmenu="return false">
+    <body>
 
         <!-- header starts -->
 
@@ -15,11 +18,11 @@
                     Techstack
                 </div>
                 <div class="nav">
-                    <div class="nav-item">Home</div>
-                    <div class="nav-item">About</div>
-                    <div class="nav-item">Services</div>
-                    <div class="nav-item">Portfolio</div>
-                    <div class="nav-item">Contact</div>
+                    <a href="#home" class="nav-item">Home</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#services" class="nav-item">Services</a>
+                    <a href="#portfolio" class="nav-item">Portfolio</a>
+                    <a href="#contact" class="nav-item">Contact</a>
                 </div>
             </div>
         </div>
@@ -28,7 +31,7 @@
 
         <!-- banner -->
 
-        <div class="banner">
+        <div id="home"  class="banner">
          <div class="overlay">
              <div class="banner_text">
                  <div class="padd">
@@ -47,7 +50,7 @@
 
         <!-- services starts -->
 
-        <div class="services">
+        <div id="services" class="services">
             <h1 class="services_title">What We Do ?</h1>
             <div class="container services_container">
                 <div class="service">
@@ -125,7 +128,7 @@
 
         <!-- who we are  -->
 
-        <div class="about">
+        <div id="about" class="about">
             <h1 class="about_title">Who We Are ?</h1>
             <div class="container about_container">
                <span class="start_text">Lorem</span> ipsum dolor sit amet consectetur adipisicing elits. Maxime iste inventore delectus atque sed nam consequatur fuga necessitatibus labore placeat? Ea dolore consequatur ipsum iure delectus! Facilis quas esseeum Maxime inventore delectus atque sed nam consequatur fuga necessitatibus labore placeat? Ea dolore consequatur ipsum iure delectus! Facilis quas esse eum!Maxime iste ainventore delectus atque sed nam consequatur fuga necessitatibus labore placeat? Ea dolore consequatur ipsum iure delectus! Facilis quas a esse eum!Maxime iste inventore delectus atque sed nam consequatur fuga necessitatibus labore placeat? Ea dolore consequatur ipsum iure delectus! Facilis quas esse iste eum!Maxime iste inventore delectus atque sed nam consequatur fuga necessitatibus labore placeat? Ea dolore consequatur ipsum aiure delectus! Facilis quas esse iste eumMaxime iste inventore delectus atque sed nam consequatur fuga necessitatibus labore placeat? Ea dolore consequatur ipsum iure delectus! Facilis quas esse eum!Maxime iste inventore delectus a sed nam consequatur fuga necessitatibus labore placeat? Ea consequatur ipsum delectus! Facilis quas esse eum!Maxime iste inventore delectussed nam consequatur fuga necessitatibus labore placeat? Ea consequatur ipsum iure delectus! Facilis quas esse eum.
@@ -178,7 +181,7 @@
 
         <!-- html for Portfolio -->
 
-        <div class="portfolio">
+        <div id="portfolio" class="portfolio">
             <div class="container portfolio_container">
                 <div class="project project_1">
                     <div class="project_title">
@@ -242,7 +245,7 @@
                 </div>
                 <div class="footer_child footer_child_3">
                     <ul>
-                        <li class="first">Contact Us</li>
+                        <li id="contact" class="first">Contact Us</li>
                         <li>
                             29th Street, plot 304,
                             Washington, 410206 USA.
